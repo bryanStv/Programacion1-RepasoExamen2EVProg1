@@ -7,9 +7,7 @@ public class Parentesis {
         String parentizado = "{([hola])}[]";
         try{
             Stack<Character> pila = new Stack<>();
-            boolean bienParentizado = true;
             for(char c: parentizado.toCharArray()){
-                char var = c;
                 switch (c){
                     case '{':
                     case '(':
