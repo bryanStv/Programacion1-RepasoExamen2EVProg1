@@ -18,7 +18,6 @@ public class Portales {
         ArrayList<Integer> portales = new ArrayList<>(Arrays.asList(2,4,7));
         int aterriza = 3;
         Integer siguiente;
-        Integer cual;
         while (!portales.isEmpty()){
             siguiente = siguiente(portales,aterriza);
             System.out.println(siguiente);
