@@ -2,7 +2,6 @@ import java.util.EmptyStackException;
 import java.util.Stack;
 
 public class Parentesis {
-    //MAL, Mirarlo de nuevo
     public static void main(String[] args) {
         String parentizado = "{([hola])}[]";
         try{
